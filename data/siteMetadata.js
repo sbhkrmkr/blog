@@ -1,28 +1,27 @@
 /** @type {import("pliny/config").PlinyConfig } */
 const siteMetadata = {
-  title: 'Next.js Starter Blog',
-  author: 'Tails Azimuth',
-  headerTitle: 'TailwindBlog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  title: 'Subho Karmakar | Blog',
+  author: 'Subhabrata Karmakar',
+  headerTitle: 'Subho Karmakar | Blog',
+  description: 'Subho Karmakar | Blog',
   language: 'en-us',
-  theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  theme: 'dark', // system, dark or light
+  siteUrl: 'https://blog.subhokarmakar.com',
+  siteRepo: 'https://github.com/subhokarmakar/blog',
   siteLogo: `${process.env.BASE_PATH || ''}/static/images/logo.png`,
   socialBanner: `${process.env.BASE_PATH || ''}/static/images/twitter-card.png`,
-  mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  x: 'https://twitter.com/x',
-  // twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
-  threads: 'https://www.threads.net',
-  instagram: 'https://www.instagram.com',
+  mastodon: 'https://mastodon.social/@sbhkrmkr',
+  email: 'sbhkrmkr1@gmail.com',
+  github: 'https://github.com/sbhkrmkr',
+  x: 'https://twitter.com/sbhkrmkr',
+  // facebook: 'https://facebook.com',
+  // youtube: 'https://youtube.com',
+  linkedin: 'https://www.linkedin.com/in/sbhkrmkr',
+  threads: 'https://www.threads.net/@sbhkrmkr',
+  instagram: 'https://www.instagram.com/sbhkrmkr',
   locale: 'en-US',
   // set to true if you want a navbar fixed to the top
-  stickyNav: false,
+  stickyNav: true,
   analytics: {
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
@@ -35,7 +34,7 @@ const siteMetadata = {
       // Remember to add 'us.umami.is' in `next.config.js` as a permitted domain for the CSP
     },
     // plausibleAnalytics: {
-    //   plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
+    //   plausibleDataDomain: '', // e.g. blog.subhokarmakar.com
     // If you are hosting your own Plausible.
     //   src: '', // e.g. https://plausible.my-domain.com/js/script.js
     // },
